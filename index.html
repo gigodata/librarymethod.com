@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ============================================================
+       Library Method™ — www.librarymethod.com
+       Canonical posture:
+       - IP Owner: Adrian Wise Santos
+       - Exclusive licencee / operator: GIGO Data, Inc.
+       ============================================================ -->
+
+  <!-- Primary SEO -->
+  <title>Library Method™ | A Methodology for Verifiable Work History — by Adrian Wise Santos</title>
+  <meta name="description" content="Library Method™ is a structured, human-aware methodology for capturing, classifying, verifying, and retrieving work history as defensible evidence. Created and owned by Adrian Wise Santos. Deployed by GIGO Data, Inc. under exclusive licence." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href="https://www.librarymethod.com/" />
+
+  <!-- Keyword tags (not a ranking factor on modern Google, but useful for consistency + other engines) -->
+  <meta name="keywords" content="Library Method™, Library Method, GIGO Data™, GIGO Data, data provenance, data integrity, governance, audit trail, work history, personal data governance, evidence, record-keeping, verification, methodology, information architecture" />
+
+  <!-- Author / ownership meta -->
+  <meta name="author" content="Adrian Wise Santos" />
+  <meta name="copyright" content="© 2026 Adrian Wise Santos. All rights reserved." />
+  <meta name="owner" content="Adrian Wise Santos" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.librarymethod.com/" />
+  <meta property="og:site_name" content="Library Method™" />
+  <meta property="og:title" content="Library Method™ — Verifiable Work History as Evidence" />
+  <meta property="og:description" content="A structured, human-aware methodology for capturing, classifying, verifying, and retrieving work history as defensible evidence. Created and owned by Adrian Wise Santos. Deployed by GIGO Data, Inc. under exclusive licence." />
+  <meta property="og:image" content="https://www.librarymethod.com/opengraph/gigodata_og_preview.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Library Method™ — by Adrian Wise Santos (deployed by GIGO Data, Inc.)" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Library Method™ — Verifiable Work History as Evidence" />
+  <meta name="twitter:description" content="A structured methodology for capturing, classifying, verifying, and retrieving work history as defensible evidence." />
+  <meta name="twitter:image" content="https://www.librarymethod.com/opengraph/gigodata_og_preview.png" />
+  <meta name="twitter:image:alt" content="Library Method™ — by Adrian Wise Santos (deployed by GIGO Data, Inc.)" />
+
+  <!-- Favicons (local) -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/favicon.ico" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data (authoritative SEO signal) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "@id":"https://www.librarymethod.com/#website",
+        "url":"https://www.librarymethod.com/",
+        "name":"Library Method\u2122",
+        "description":"Library Method\u2122 is a structured, human-aware methodology for capturing, classifying, verifying, and retrieving work history as defensible evidence.",
+        "publisher":{"@id":"https://www.gigodata.com/#organization"},
+        "inLanguage":"en-US"
+      },
+      {
+        "@type":"Organization",
+        "@id":"https://www.gigodata.com/#organization",
+        "name":"GIGO Data\u2122",
+        "url":"https://www.gigodata.com/",
+        "description":"GIGO Data, Inc. deploys Library Method\u2122 under exclusive licence.",
+        "legalName":"GIGO Data, Inc."
+      },
+      {
+        "@type":"Person",
+        "@id":"https://www.librarymethod.com/#adrian",
+        "name":"Adrian Wise Santos",
+        "url":"https://www.librarymethod.com/",
+        "description":"Creator and owner of the Library Method\u2122 intellectual property."
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ================================================================
+       DESIGN SYSTEM (editorial, disciplined, high-signal)
+       ================================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root{
+      --c-ink:#1a1208;
+      --c-parchment:#f5f0e8;
+      --c-aged:#e8e0cc;
+      --c-gold:#b8882a;
+      --c-gold-light:#d4a84b;
+      --c-burgundy:#7a1f2e;
+      --c-forest:#1e3a2f;
+      --c-slate:#3d3528;
+      --c-muted:#6b5f4a;
+      --c-rule:#c9bfa8;
+
+      --font-display:'Playfair Display','Georgia',serif;
+      --font-body:'Libre Baskerville','Georgia',serif;
+      --font-mono:'DM Mono','Courier New',monospace;
+
+      --max-width:1100px;
+      --gutter:clamp(1.5rem,5vw,4rem);
+      --section-gap:clamp(3rem,7vw,5.5rem);
+    }
+
+    html{ scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+    body{
+      background:var(--c-parchment);
+      color:var(--c-ink);
+      font-family:var(--font-body);
+      font-size:clamp(1rem,1.2vw,1.125rem);
+      line-height:1.75;
+      overflow-x:hidden;
+    }
+
+    body::before{
+      content:'';
+      position:fixed;
+      inset:0;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events:none;
+      z-index:9999;
+      opacity:0.55;
+    }
+
+    a{ color:inherit; text-decoration:none; }
+    img{ display:block; max-width:100%; }
+
+    .u-container{ max-width:var(--max-width); margin-inline:auto; padding-inline:var(--gutter); }
+    .u-mono{ font-family:var(--font-mono); }
+    .u-label{
+      font-family:var(--font-mono);
+      font-size:0.68rem;
+      letter-spacing:0.22em;
+      text-transform:uppercase;
+      color:var(--c-muted);
+    }
+    .u-sr-only{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+
+    /* ================================================================
+       LEGAL BANNER (clean, not over-lawyered, high confidence)
+       ================================================================ */
+    .legal-banner{
+      background:var(--c-forest);
+      color:var(--c-aged);
+      font-family:var(--font-mono);
+      font-size:0.67rem;
+      letter-spacing:0.05em;
+      text-align:center;
+      padding:0.55rem var(--gutter);
+      border-bottom:1px solid var(--c-gold);
+    }
+
+    /* ================================================================
+       MASTHEAD
+       ================================================================ */
+    .masthead{
+      position:sticky; top:0; z-index:200;
+      background:var(--c-parchment);
+      border-bottom:2px solid var(--c-ink);
+      box-shadow:0 2px 12px rgba(26,18,8,0.07);
+    }
+    .masthead__inner{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:1.5rem; padding-block:1rem;
+    }
+    .masthead__brand{ display:flex; flex-direction:column; gap:0.1rem; }
+    .masthead__wordmark{
+      font-family:var(--font-display);
+      font-weight:700;
+      font-size:clamp(1.2rem,2.5vw,1.65rem);
+      letter-spacing:-0.01em;
+      line-height:1;
+    }
+    .masthead__sub{
+      font-family:var(--font-mono);
+      font-size:clamp(0.55rem,0.85vw,0.72rem);
+      letter-spacing:0.14em;
+      text-transform:uppercase;
+      color:var(--c-muted);
+      white-space:nowrap;
+    }
+    .masthead__wordmark sup,
+    .hero__headline sup{
+      font-size:0.33em;
+      vertical-align:super;
+      letter-spacing:0;
+    }
+    .masthead__nav{ display:flex; gap:2.25rem; list-style:none; }
+    .masthead__nav a{
+      font-family:var(--font-mono);
+      font-size:0.76rem;
+      letter-spacing:0.09em;
+      text-transform:uppercase;
+      color:var(--c-slate);
+      transition:color 0.2s ease;
+    }
+    .masthead__nav a:hover,
+    .masthead__nav a:focus-visible{ color:var(--c-gold); outline:none; }
+
+    /* ================================================================
+       HERO
+       ================================================================ */
+    .hero{ position:relative; min-height:92vh; overflow:hidden; }
+    .hero__bg{
+      position:absolute; inset:0;
+      background-image:url('assets/images/librarymethod_hero_v1_2026_02_01.jpg');
+      background-size:cover;
+      background-position:center 28%;
+      background-repeat:no-repeat;
+      filter:sepia(0.18) contrast(1.06) brightness(0.86);
+      transform:scale(1.02);
+      transition:transform 8s ease;
+    }
+    .hero:hover .hero__bg{ transform:scale(1.0); }
+
+    /* Adjusted to preserve your "light hero" while supporting bright headline */
+    .hero__overlay{
+      position:absolute; inset:0;
+      background:linear-gradient(
+        to bottom,
+        rgba(26,18,8,0.38) 0%,
+        rgba(26,18,8,0.18) 28%,
+        rgba(245,240,232,0.00) 52%,
+        rgba(245,240,232,0.72) 76%,
+        rgba(245,240,232,1) 100%
+      );
+    }
+
+    .hero__content{ position:absolute; bottom:0; left:0; right:0; padding-bottom:clamp(2.5rem,6vw,4rem); }
+    .hero__content .u-container{ max-width:900px; }
+    .hero__eyebrow{
+      font-family:var(--font-mono);
+      font-size:clamp(0.75rem,1.1vw,0.9rem);
+      font-weight:700;
+      letter-spacing:0.22em;
+      text-transform:uppercase;
+      color:#1a1208;
+      margin-bottom:1.1rem;
+      display:inline-flex;
+      align-items:center;
+      gap:0;
+      background:#f5f0e8;
+      padding:0;
+      width:100%;
+    }
+    .hero__eyebrow::before,
+    .hero__eyebrow::after{
+      content:'';
+      display:block;
+      height:3px;
+      background:#1a1208;
+      flex:1;
+    }
+    .hero__eyebrow span{
+      padding:0.5rem 1.2rem;
+      background:#1a1208;
+      color:#f5f0e8;
+      letter-spacing:0.22em;
+      font-size:clamp(0.7rem,1vw,0.85rem);
+      white-space:nowrap;
+    }
+
+    .hero__headline{
+      font-family:var(--font-display);
+      font-weight:900;
+      font-size:clamp(2.8rem,7.5vw,6.5rem);
+      line-height:1.0;
+      letter-spacing:-0.025em;
+      margin-bottom:1rem;
+      color: #1a1208;
+      -webkit-text-stroke: 0.83px #b8882a;
+      text-stroke: 0.83px #b8882a;
+      text-shadow: 2px 2px 0 rgba(184,136,42,0.15);
+    }
+    .hero__headline em{
+      font-style:normal;
+      font-family:var(--font-display);
+      font-weight:900;
+      color:#1a1208;
+      -webkit-text-stroke: 0.83px #b8882a;
+      text-stroke: 0.83px #b8882a;
+    }
+
+    .hero__tagline{
+      font-family:var(--font-body);
+      font-style:normal;
+      font-weight:900;
+      font-size:clamp(1.2rem,2.4vw,1.65rem);
+      color:#1a1208;
+      text-shadow: none;
+      margin-bottom:2rem;
+      max-width:560px;
+      width:fit-content;
+      display:inline-block;
+      background:rgba(255,255,255,0.12);
+      padding:1.25rem 1.75rem;
+      line-height:1.7;
+      backdrop-filter:blur(12px) saturate(1.4) brightness(1.15);
+      -webkit-backdrop-filter:blur(12px) saturate(1.4) brightness(1.15);
+      border:2px solid rgba(184,136,42,0.9);
+      border-left:5px solid rgba(184,136,42,0.9);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.4),
+        inset 0 -1px 0 rgba(255,255,255,0.1),
+        0 8px 32px rgba(26,18,8,0.12);
+    }
+    .hero__badge{
+      display:inline-block;
+      white-space:nowrap;
+      overflow:visible;
+      background:var(--c-ink);
+      color:var(--c-parchment);
+      font-family:var(--font-mono);
+      font-size:0.72rem;
+      font-weight:700;
+      letter-spacing:0.14em;
+      text-transform:uppercase;
+      padding:0.9rem 1.75rem;
+      border:2px solid #b8882a;
+      border-left:5px solid #b8882a;
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.08),
+        inset 0 -1px 0 rgba(0,0,0,0.25),
+        inset 1px 0 0 rgba(255,255,255,0.05),
+        0 4px 16px rgba(26,18,8,0.35),
+        0 1px 0 rgba(184,136,42,0.4);
+      text-shadow:0 1px 2px rgba(0,0,0,0.4), 0 -1px 0 rgba(255,255,255,0.08);
+    }
+
+    /* ================================================================
+       SECTION BASE
+       ================================================================ */
+    .section{ padding-block:var(--section-gap); }
+    .section + .section{ border-top:1px solid var(--c-rule); }
+    .section__header{ margin-bottom:2.25rem; }
+    .section__title{
+      font-family:var(--font-display);
+      font-weight:700;
+      font-size:clamp(1.6rem,3.5vw,2.6rem);
+      line-height:1.12;
+      margin-top:0.5rem;
+    }
+    .section__title em{ font-style:italic; color:var(--c-burgundy); }
+    .section__lead{
+      font-size:1.1rem;
+      line-height:1.8;
+      color:var(--c-slate);
+      max-width:760px;
+      margin-top:1rem;
+    }
+    p{ margin-bottom:1.15rem; color:var(--c-slate); }
+    p:last-child{ margin-bottom:0; }
+
+    /* ================================================================
+       DEFINITION (dark band)
+       ================================================================ */
+    .definition{
+      background:var(--c-ink);
+      color:var(--c-parchment);
+      padding-block:var(--section-gap);
+      position:relative;
+      overflow:hidden;
+    }
+    .definition::before{
+      content:'❝';
+      position:absolute;
+      top:-2rem;
+      left:calc(var(--gutter) - 0.75rem);
+      font-family:var(--font-display);
+      font-size:10rem;
+      color:var(--c-gold);
+      opacity:0.08;
+      line-height:1;
+      pointer-events:none;
+      user-select:none;
+    }
+    .definition__quote{
+      font-family:var(--font-display);
+      font-style:italic;
+      font-size:clamp(1.25rem,2.8vw,2rem);
+      line-height:1.5;
+      color:var(--c-parchment);
+      border-left:3px solid var(--c-gold);
+      padding-left:1.75rem;
+      margin-bottom:1.75rem;
+      max-width:860px;
+    }
+    .definition__quote strong{ font-style:normal; color:var(--c-gold-light); }
+    .definition p{ color:var(--c-aged); max-width:760px; font-size:0.97rem; line-height:1.82; }
+
+    /* ================================================================
+       PRINCIPLES GRID (✅ force 2×2 on desktop; keep your look)
+       ================================================================ */
+    .principles{
+      display:grid;
+      grid-template-columns: 1fr;   /* mobile default */
+      gap:1.5rem;
+      margin-top:2rem;
+    }
+    @media (min-width: 820px){
+      .principles{
+        grid-template-columns: 1fr 1fr; /* 2×2 square for 4 tiles */
+      }
+    }
+
+    .principle{
+      background:var(--c-aged);
+      border:1px solid var(--c-rule);
+      border-top:3px solid var(--c-gold);
+      padding:1.75rem 1.5rem;
+    }
+    .principle__number{
+      font-family:var(--font-mono);
+      font-size:0.65rem;
+      letter-spacing:0.18em;
+      color:var(--c-gold);
+      text-transform:uppercase;
+      margin-bottom:0.6rem;
+    }
+    .principle__title{
+      font-family:var(--font-display);
+      font-weight:700;
+      font-size:1.1rem;
+      color:var(--c-ink);
+      margin-bottom:0.6rem;
+    }
+    .principle__body{ font-size:0.9rem; line-height:1.65; margin-bottom:0; }
+
+    /* ================================================================
+       STEPS
+       ================================================================ */
+    .steps-section{ background:var(--c-aged); }
+    .steps{ margin-top:2rem; }
+    .step{
+      display:grid;
+      grid-template-columns:3.5rem 1fr;
+      gap:1.5rem;
+      align-items:start;
+      padding-block:1.75rem;
+      border-bottom:1px solid var(--c-rule);
+    }
+    .step:last-child{ border-bottom:none; }
+    .step__num{
+      font-family:var(--font-display);
+      font-weight:900;
+      font-size:2.2rem;
+      color:var(--c-gold);
+      opacity:0.45;
+      line-height:1;
+      text-align:right;
+      padding-top:0.1rem;
+    }
+    .step__title{
+      font-family:var(--font-display);
+      font-weight:700;
+      font-size:1.2rem;
+      color:var(--c-ink);
+      margin-bottom:0.35rem;
+    }
+    .step__body{ font-size:0.93rem; margin-bottom:0; }
+
+    /* ================================================================
+       WHO IT'S FOR
+       ================================================================ */
+    .for-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:3rem;
+      align-items:start;
+      margin-top:2rem;
+    }
+    .for-card{
+      background:var(--c-aged);
+      border:1px solid var(--c-rule);
+      border-top:3px solid var(--c-burgundy);
+      padding:1.75rem 1.5rem;
+      margin-bottom:1rem;
+    }
+    .for-card:last-child{ margin-bottom:0; }
+    .for-card__title{
+      font-family:var(--font-display);
+      font-weight:700;
+      font-size:1rem;
+      color:var(--c-ink);
+      margin-bottom:0.5rem;
+    }
+    .for-card__body{ font-size:0.9rem; margin-bottom:0; }
+
+    /* ================================================================
+       IP / RIGHTS SECTION (correct ownership + licence)
+       ================================================================ */
+    .ip-section{ background:var(--c-forest); color:var(--c-aged); }
+    .ip-section .u-label{ color:var(--c-gold-light); opacity:0.85; }
+    .ip-section .section__title{ color:var(--c-parchment); }
+    .ip-section p{ color:var(--c-aged); font-size:0.96rem; line-height:1.82; }
+
+    .ip-box{
+      background:rgba(245,240,232,0.05);
+      border:1px solid rgba(184,136,42,0.32);
+      border-left:4px solid var(--c-gold);
+      padding:2rem;
+      margin-top:2rem;
+      font-family:var(--font-mono);
+      font-size:0.79rem;
+      line-height:1.95;
+      color:var(--c-aged);
+      letter-spacing:0.01em;
+      white-space:pre-wrap;
+      word-break:break-word;
+    }
+    .ip-box strong{
+      color:var(--c-gold-light);
+      display:block;
+      margin-bottom:0.65rem;
+      font-size:0.7rem;
+      letter-spacing:0.18em;
+      text-transform:uppercase;
+    }
+
+    /* ================================================================
+       ATTRIBUTION
+       ================================================================ */
+    .attribution{ text-align:center; padding-block:var(--section-gap); }
+    .attribution__ornament{
+      font-size:1.2rem;
+      letter-spacing:0.6rem;
+      color:var(--c-gold);
+      opacity:0.6;
+      margin-bottom:2rem;
+    }
+    .attribution__company{
+      font-family:var(--font-display);
+      font-weight:700;
+      font-size:clamp(1.6rem,3vw,2.4rem);
+      color:var(--c-ink);
+    }
+    .attribution__domain{
+      font-family:var(--font-mono);
+      font-size:0.72rem;
+      letter-spacing:0.12em;
+      text-transform:uppercase;
+      color:var(--c-muted);
+      margin-top:0.3rem;
+      margin-bottom:1.75rem;
+    }
+    .btn-outline{
+      display:inline-block;
+      font-family:var(--font-mono);
+      font-size:0.76rem;
+      letter-spacing:0.1em;
+      text-transform:uppercase;
+      color:var(--c-ink);
+      border:1.5px solid var(--c-ink);
+      padding:0.65rem 1.75rem;
+      transition:background 0.22s ease, color 0.22s ease;
+    }
+    .btn-outline:hover, .btn-outline:focus-visible{ background:var(--c-ink); color:var(--c-parchment); outline:none; }
+
+    /* ================================================================
+       FOOTER
+       ================================================================ */
+    .footer{
+      background:var(--c-ink);
+      color:var(--c-aged);
+      padding-block:clamp(2.5rem,5vw,4rem);
+    }
+    .footer__top{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap:2rem;
+      padding-bottom:2rem;
+      border-bottom:1px solid rgba(201,191,168,0.18);
+      margin-bottom:1.75rem;
+    }
+    .footer__wordmark{
+      font-family:var(--font-display);
+      font-weight:700;
+      font-size:1.45rem;
+      color:var(--c-parchment);
+      line-height:1;
+    }
+    .footer__tagline{
+      font-family:var(--font-display);
+      font-style:italic;
+      font-size:0.88rem;
+      color:var(--c-muted);
+      margin-top:0.35rem;
+    }
+    .footer__nav{
+      list-style:none;
+      display:flex;
+      flex-direction:column;
+      gap:0.55rem;
+    }
+    .footer__nav a{
+      font-family:var(--font-mono);
+      font-size:0.7rem;
+      letter-spacing:0.1em;
+      text-transform:uppercase;
+      color:var(--c-muted);
+      transition:color 0.2s;
+    }
+    .footer__nav a:hover{ color:var(--c-gold-light); }
+
+    .footer__legal{
+      font-family:var(--font-mono);
+      font-size:0.66rem;
+      line-height:1.85;
+      color:var(--c-muted);
+      letter-spacing:0.02em;
+    }
+    .footer__legal strong{
+      color:var(--c-aged);
+      display:block;
+      margin-bottom:0.4rem;
+      letter-spacing:0.08em;
+    }
+
+    @keyframes fadeUp{
+      from{ opacity:0; transform:translateY(20px); }
+      to{ opacity:1; transform:translateY(0); }
+    }
+    .hero__eyebrow{ animation:fadeUp 0.65s ease both; animation-delay:0.1s; }
+    .hero__headline{ animation:fadeUp 0.75s ease both; animation-delay:0.25s; }
+    .hero__tagline{ animation:fadeUp 0.75s ease both; animation-delay:0.42s; }
+    .hero__badge{ animation:fadeUp 0.75s ease both; animation-delay:0.58s; }
+
+    @media (max-width: 768px){
+      .masthead__nav{ display:none; }
+      .for-grid{ grid-template-columns:1fr; gap:0; }
+    }
+    @media (max-width: 500px){
+      .hero__headline{ font-size:clamp(2.4rem,11vw,3.5rem); }
+      .ip-box{ font-size:0.72rem; padding:1.25rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Legal banner -->
+  <div class="legal-banner" role="doc-note" aria-label="Legal notice">
+    Library Method&nbsp;™ — intellectual property of Adrian Wise Santos. &nbsp;·&nbsp;
+    Deployed by GIGO Data&nbsp;™ under exclusive licence. &nbsp;·&nbsp; www.librarymethod.com
+  </div>
+
+  <!-- Masthead -->
+  <header class="masthead" role="banner">
+    <div class="masthead__inner u-container">
+
+      <a href="https://www.librarymethod.com/" class="masthead__brand" aria-label="Library Method home">
+        <div class="masthead__wordmark">Library Method&nbsp;<sup>™</sup></div>
+        <div class="masthead__sub">Verifiable Work History as Evidence</div>
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul class="masthead__nav" role="list">
+          <li><a href="#what-it-is">What it is</a></li>
+          <li><a href="#principles">Principles</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#ip-rights">IP &amp; rights</a></li>
+          <li><a href="https://www.gigodata.com" target="_blank" rel="noopener noreferrer">GIGO Data&nbsp;™</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" aria-label="Hero — Library Method">
+      <div class="hero__bg" role="img" aria-label="Library hall — Library Method hero image"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <div class="u-container">
+          <div class="hero__eyebrow"><span>A methodology for data integrity &amp; governance</span></div>
+
+          <h1 class="hero__headline">
+            Library<br><em>Method</em>&nbsp;<sup>™</sup>
+          </h1>
+
+          <p class="hero__tagline">
+            Capture. Classify. Verify. Retrieve. <br />
+            Turn work history into a defensible record — under United States and European Union legal frameworks.
+          </p>
+
+          <div class="hero__badge">
+            CREATED &amp; OWNED BY ADRIAN WISE SANTOS &nbsp;·&nbsp; DEPLOYED BY GIGO DATA&nbsp;™
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Definition -->
+    <section class="definition" id="what-it-is" aria-labelledby="def-title">
+      <div class="u-container">
+        <div class="u-label" style="color:var(--c-gold-light); margin-bottom:1rem;">
+          What is Library Method&nbsp;™?
+        </div>
+
+        <blockquote class="definition__quote" id="def-title">
+          “Library Method&nbsp;™ is a <strong>structured, human-aware methodology</strong> for capturing, classifying, verifying, and retrieving work history as defensible evidence — so you can trust your record and act with clarity.”
+        </blockquote>
+
+        <p>
+          Most systems generate activity, not truth. Library Method&nbsp;™ is built for people and organisations who need provable records:
+          decisions, deliverables, timelines, obligations, accountability, and the underlying narrative that survives pressure.
+        </p>
+      </div>
+    </section>
+
+    <!-- Origin & purpose -->
+    <section class="section" aria-labelledby="origin-title">
+      <div class="u-container">
+        <div class="section__header">
+          <div class="u-label">Purpose</div>
+          <h2 class="section__title" id="origin-title">
+            Structure before analysis.<br /><em>Truth as an asset.</em>
+          </h2>
+          <p class="section__lead">
+            Library Method&nbsp;™ establishes a disciplined information architecture and verification layer so your history is queryable, portable, and defensible.
+          </p>
+        </div>
+
+        <p>
+          The methodology is designed for the realities of modern work: fragmented tooling, distributed teams, regulated environments, and AI systems that amplify whatever you feed them.
+          Integrity is not a feature; it is an operating standard.
+        </p>
+
+        <p>
+          Library Method&nbsp;™ is the foundation for governance-grade personal and organisational records — aligned to evidentiary expectations in the United States and the European Union.
+        </p>
+      </div>
+    </section>
+
+    <!-- Principles -->
+    <section class="section" id="principles" aria-labelledby="principles-title">
+      <div class="u-container">
+        <div class="section__header">
+          <div class="u-label">Core principles</div>
+          <h2 class="section__title" id="principles-title">
+            Four principles.<br /><em>One disciplined standard.</em>
+          </h2>
+        </div>
+
+        <div class="principles" role="list">
+          <div class="principle" role="listitem">
+            <div class="principle__number">Principle 01</div>
+            <h3 class="principle__title">No garbage in</h3>
+            <p class="principle__body">
+              Clean inputs create clean outputs. Capture is engineered so error does not become data — and data does not become doctrine.
+            </p>
+          </div>
+
+          <div class="principle" role="listitem">
+            <div class="principle__number">Principle 02</div>
+            <h3 class="principle__title">Structure first</h3>
+            <p class="principle__body">
+              Classification is not overhead; it is the precondition for retrieval, comparison, governance, and meaningful AI assistance.
+            </p>
+          </div>
+
+          <div class="principle" role="listitem">
+            <div class="principle__number">Principle 03</div>
+            <h3 class="principle__title">Truth as an asset</h3>
+            <p class="principle__body">
+              Your record should be provable, not reconstructed. Verification turns work history into defensible evidence.
+            </p>
+          </div>
+
+          <div class="principle" role="listitem">
+            <div class="principle__number">Principle 04</div>
+            <h3 class="principle__title">User ownership</h3>
+            <p class="principle__body">
+              People have the paramount right to govern their own records: access, correction, portability, and evidentiary integrity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section steps-section" id="how-it-works" aria-labelledby="steps-title">
+      <div class="u-container">
+        <div class="section__header">
+          <div class="u-label">The method</div>
+          <h2 class="section__title" id="steps-title">
+            Four stages.<br /><em>One continuous cycle.</em>
+          </h2>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step__num" aria-hidden="true">01</div>
+            <div class="step__content">
+              <h3 class="step__title">Capture</h3>
+              <p class="step__body">Collect events, decisions, and outputs in your natural workflow — without destroying the signal.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num" aria-hidden="true">02</div>
+            <div class="step__content">
+              <h3 class="step__title">Classify</h3>
+              <p class="step__body">Apply a stable taxonomy: categories, priority, context, and identifiers that survive time and organisational drift.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num" aria-hidden="true">03</div>
+            <div class="step__content">
+              <h3 class="step__title">Verify</h3>
+              <p class="step__body">Make records tamper-evident through integrity checks, provenance, and cryptographic anchors.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num" aria-hidden="true">04</div>
+            <div class="step__content">
+              <h3 class="step__title">Retrieve</h3>
+              <p class="step__body">Surface trusted history instantly — for governance, performance, litigation readiness, and clarity under pressure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who it's for -->
+    <section class="section" aria-labelledby="for-title">
+      <div class="u-container">
+        <div class="section__header">
+          <div class="u-label">Who it’s for</div>
+          <h2 class="section__title" id="for-title">
+            For those who need<br /><em>records they can prove.</em>
+          </h2>
+          <p class="section__lead">
+            Professionals, teams, and organisations where accuracy, accountability, and governance matter — and where “close enough” fails.
+          </p>
+        </div>
+
+        <div class="for-grid">
+          <div>
+            <p>
+              Founders, product leaders, lawyers, consultants, executives, operators, and anyone who must defend decisions and timelines with evidence.
+              Also: organisations building AI systems that require clean provenance to avoid automated amplification of error.
+            </p>
+            <p>
+              Library Method&nbsp;™ is designed for the technical age: truth needs a chain of custody.
+            </p>
+          </div>
+
+          <div>
+            <div class="for-card">
+              <h3 class="for-card__title">For professionals</h3>
+              <p class="for-card__body">Auditable work history, verifiable deliverables, and a defensible record you control.</p>
+            </div>
+
+            <div class="for-card">
+              <h3 class="for-card__title">For teams</h3>
+              <p class="for-card__body">Shared structure without surveillance — clarity through taxonomy, not oversight.</p>
+            </div>
+
+            <div class="for-card">
+              <h3 class="for-card__title">For organisations</h3>
+              <p class="for-card__body">Governance-grade records: integrity, compliance readiness, and decision support at scale.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IP & rights -->
+    <section class="section ip-section" id="ip-rights" aria-labelledby="ip-title">
+      <div class="u-container">
+        <div class="section__header">
+          <div class="u-label">Intellectual property &amp; rights</div>
+          <h2 class="section__title" id="ip-title">
+            Ownership is explicit.<br />Evidence is deliberate.
+          </h2>
+        </div>
+
+        <p>
+          <strong>Library Method&nbsp;™</strong> is the intellectual property of <strong>Adrian Wise Santos</strong>.
+          <strong>GIGO Data, Inc.</strong> operates and deploys Library Method&nbsp;™ under an <strong>exclusive licence</strong>.
+        </p>
+
+        <p>
+          This publication establishes a clear public assertion of authorship, ownership, and operational deployment across the United States and the European Union.
+        </p>
+
+        <div class="ip-box" role="note" aria-label="Rights notice">
+<strong>Rights Notice — Library Method&nbsp;™</strong>
+Owner:        Adrian Wise Santos
+Licencee:     GIGO Data, Inc. (exclusive licence)
+Scope:        Methodology, documentation, naming, and associated systems
+Jurisdiction: United States and European Union legal frameworks
+Contact:      <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0c60696b6d604c6b656b63686d786d226f6361">[email&#160;protected]</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Attribution -->
+    <section class="attribution section" aria-label="About GIGO Data">
+      <div class="u-container">
+        <div class="attribution__ornament" aria-hidden="true">· · ·</div>
+        <div class="u-label" style="text-align:center; margin-bottom:0.5rem;">Deployed by</div>
+        <div class="attribution__company">GIGO Data&nbsp;™</div>
+        <div class="attribution__domain">
+          gigodata.com &nbsp;·&nbsp; Data Governance &amp; AI Systems
+        </div>
+        <a href="https://www.gigodata.com" class="btn-outline" target="_blank" rel="noopener noreferrer" aria-label="Visit GIGO Data website">
+          Visit GIGO Data&nbsp;™ &rarr;
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="u-container">
+
+      <div class="footer__top">
+        <div>
+          <a href="https://www.librarymethod.com/" class="footer__wordmark" aria-label="Library Method home">Library Method&nbsp;™</a>
+          <div class="footer__tagline">Know your story. Trust your data. Act with clarity.</div>
+        </div>
+
+        <nav aria-label="Footer navigation">
+          <ul class="footer__nav" role="list">
+            <li><a href="#what-it-is">What it is</a></li>
+            <li><a href="#principles">Principles</a></li>
+            <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="#ip-rights">IP &amp; rights</a></li>
+            <li><a href="https://www.gigodata.com" target="_blank" rel="noopener noreferrer">GIGO Data&nbsp;™</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer__legal">
+        <strong>Ownership &amp; licence</strong>
+        Library Method&nbsp;™ is the intellectual property of Adrian Wise Santos.
+        GIGO Data, Inc. operates Library Method&nbsp;™ under exclusive licence. <br />
+        © 2026 Adrian W
