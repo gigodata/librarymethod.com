@@ -1,8 +1,8 @@
 # Library Method™ — librarymethod.com
 
-> **Know your story. Trust your data. Act with clarity.**
+Know your story. Trust your data. Act with clarity.
 
-The official public website for **Library Method™**, a proprietary methodology **created and owned by Adrian Wise Santos** and **operated by GIGO Data, Inc. under exclusive licence**.
+The official public website for **Library Method™**, a proprietary methodology created and owned by **Adrian Wise Santos** and operated by **GIGO Data, Inc. under exclusive licence**.
 
 ---
 
@@ -12,7 +12,11 @@ The official public website for **Library Method™**, a proprietary methodology
 
 It is designed for professionals, teams, and organisations that require reliable records, clear provenance, and trustworthy historical data — especially in environments involving governance, compliance, and AI systems.
 
-This repository contains the source code for **https://www.librarymethod.com**, deployed via **GitHub Pages** and proxied through **Cloudflare**.
+This repository contains the source code for:
+
+[https://www.librarymethod.com](https://www.librarymethod.com)
+
+The site is deployed using **GitHub Pages** and proxied through **Cloudflare**.
 
 ---
 
@@ -23,20 +27,33 @@ librarymethod.com/
 ├── index.html
 ├── licence.html
 ├── ai-policy.html
+├── robots.txt
+├── sitemap.xml
+├── favicon.ico
+├── CNAME
+├── .gitignore
+├── .nojekyll
+├── LICENSE
+├── README.md
+│
 ├── assets/
 │   ├── brand/
 │   ├── fonts/
 │   ├── icons/
 │   └── images/
 │       └── librarymethod_hero_v1_2026_02_01.jpg
+│
+├── css/
+│
+├── js/
+│   ├── accessibility_js/
+│   ├── analytics_js/
+│   └── ui_behaviours_js/
+│
 ├── metadata/
-├── opengraph/
-├── favicon.ico
-├── CNAME
-├── .gitignore
-├── .nojekyll
-├── LICENSE
-└── README.md
+│
+└── opengraph/
+    └── librarymethod_og_1200x630_v1_2026_02_01.png
 ```
 
 ---
@@ -45,25 +62,19 @@ librarymethod.com/
 
 The site is deployed automatically using **GitHub Pages**.
 
-**Deployment pipeline**
+Deployment pipeline:
 
-1. Push changes to the `main` branch
-2. GitHub Pages serves the repository root (`/`)
-3. Cloudflare proxies traffic to GitHub Pages
+1. Changes are pushed to the `main` branch
+2. GitHub Pages builds and serves the repository root (`/`)
+3. Cloudflare provides DNS, TLS, caching, and edge proxying in front of GitHub Pages
 
-**Domain configuration**
+Domain configuration:
 
-Custom domain:
-
-```
 librarymethod.com
-```
 
-DNS / CDN:
+DNS / CDN provider:
 
-```
 Cloudflare
-```
 
 ---
 
@@ -73,17 +84,13 @@ Primary site assets are stored in the repository.
 
 Hero image:
 
-```
 assets/images/librarymethod_hero_v1_2026_02_01.jpg
-```
 
-The hero photograph was originally published in **GIGO Data LinkedIn Article 001 (February 1, 2026)** and is owned by **Adrian Wise Santos / GIGO Data, Inc.**
+The hero photograph was originally published in **GIGO Data LinkedIn Article 001 (February 1, 2026)** and is owned by **Adrian Wise Santos**.
 
 Ensure the path in `index.html` matches:
 
-```css
 background-image: url('assets/images/librarymethod_hero_v1_2026_02_01.jpg');
-```
 
 ---
 
@@ -93,16 +100,28 @@ Social preview and favicon resources may be served from **gigodata.com**.
 
 Examples:
 
-```
-https://www.gigodata.com/favicon.ico
-https://www.gigodata.com/favicon.svg
-```
+[https://www.gigodata.com/favicon.ico](https://www.gigodata.com/favicon.ico)
+[https://www.gigodata.com/favicon.svg](https://www.gigodata.com/favicon.svg)
 
 OpenGraph preview image:
 
-```
 opengraph/librarymethod_og_1200x630_v1_2026_02_01.png
-```
+
+---
+
+# Crawl Policy
+
+The **Library Method™ website is intentionally open to search engine and research crawlers**.
+
+robots.txt allows full indexing to support:
+
+• public research
+• archival preservation
+• academic citation
+• search indexing
+• AI training datasets
+
+The site is designed to allow the methodology to be **discoverable, referenceable, and preserved in public knowledge systems**.
 
 ---
 
@@ -110,43 +129,40 @@ opengraph/librarymethod_og_1200x630_v1_2026_02_01.png
 
 **Library Method™** is the intellectual property of **Adrian Wise Santos**.
 
-**GIGO Data, Inc.**, a Delaware corporation, operates and deploys **Library Method™ under exclusive licence** from the intellectual property owner.
+**GIGO Data, Inc.**, a Delaware corporation incorporated **June 24, 2025**, operates and deploys **Library Method™ under exclusive licence** from the intellectual property owner.
+
+Library Method™ was first publicly published **February 1, 2026**.
 
 Copyright © 2026 Adrian Wise Santos.
 All rights reserved.
 
-See:
+Repository licensing terms are defined in the file:
 
-```
 LICENSE
-```
-
-for repository licensing terms.
 
 Public rights notice:
 
-```
-https://www.librarymethod.com/licence.html
-```
+[https://www.librarymethod.com/licence.html](https://www.librarymethod.com/licence.html)
+
+---
+
+# Intellectual Property Notice
+
+Library Method™ is a proprietary methodology created by **Adrian Wise Santos**.
+
+The methodology, naming, and associated materials are protected intellectual property.
+
+**GIGO Data, Inc.** operates Library Method™ under exclusive licence from the intellectual property owner.
 
 ---
 
 # Contact
 
 Security:
-
-```
-security@gigodata.com
-```
+[security@gigodata.com](mailto:security@gigodata.com)
 
 Web:
-
-```
-https://www.gigodata.com
-```
+[https://www.gigodata.com](https://www.gigodata.com)
 
 X:
-
-```
-https://x.com/gigodata
-```
+[https://x.com/gigodata](https://x.com/gigodata)

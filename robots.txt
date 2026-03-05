@@ -1,3 +1,7 @@
+# Library Method™ — librarymethod.com
+# Crawl policy: fully open
+# Author: Adrian Wise Santos
+
 User-agent: *
 Allow: /
 

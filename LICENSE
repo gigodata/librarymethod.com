@@ -1,42 +1,80 @@
-Library Method™ Website Repository
+Library Method™ Website Repository License
 Copyright (c) 2026 Adrian Wise Santos
 
 All rights reserved.
 
 This repository contains the source code and associated assets for the
-Library Method™ website (librarymethod.com).
+Library Method™ website located at:
 
-Library Method™ is the intellectual property of Adrian Wise Santos.
-GIGO Data, Inc. operates and deploys Library Method™ under an exclusive
-licence granted by the intellectual property owner.
+https://www.librarymethod.com
+
+Library Method™ is a proprietary methodology created and owned by
+Adrian Wise Santos.
+
+GIGO Data, Inc., a Delaware corporation, operates and deploys
+Library Method™ under an exclusive commercial licence granted
+by the intellectual property owner.
+
+------------------------------------------------------------
+
+INTELLECTUAL PROPERTY
 
 The methodology known as Library Method™, including its naming,
-structure, doctrine, documentation, and associated conceptual framework,
-is not licensed by this repository and remains the exclusive intellectual
-property of Adrian Wise Santos.
+structure, conceptual framework, doctrine, documentation,
+and associated systems, is the exclusive intellectual property
+of Adrian Wise Santos.
 
-Permission is hereby granted to view this repository and its contents
-for informational purposes only.
+Nothing in this repository grants any licence, express or implied,
+to reproduce, implement, commercialise, or derive systems from
+the Library Method™ methodology.
 
-No permission is granted to copy, reproduce, redistribute, modify,
-derive, commercialise, or implement the Library Method™ methodology,
-documentation, or associated intellectual property without the express
-written permission of the intellectual property owner.
+Publication of documentation relating to the methodology
+does not constitute a transfer of ownership or licence.
 
-The website source code and design elements contained in this repository
-may not be reused or redistributed without permission.
+------------------------------------------------------------
 
-Unauthorized use of the Library Method™ name, methodology,
-or associated intellectual property may constitute infringement under
-applicable intellectual property laws.
+REPOSITORY ACCESS
 
-For licensing enquiries, contact:
+Permission is granted to view this repository and its contents
+for informational and reference purposes only.
+
+No rights are granted to:
+
+• copy or redistribute the repository contents  
+• modify the repository contents  
+• reuse the website source code or design elements  
+• reproduce or implement the Library Method™ methodology  
+• create derivative frameworks based on Library Method™
+
+Any such use requires the express written permission of
+the intellectual property owner.
+
+------------------------------------------------------------
+
+TRADEMARK AND BRAND USE
+
+Unauthorized use of the Library Method™ name, terminology,
+or branding may constitute infringement under applicable
+intellectual property laws.
+
+------------------------------------------------------------
+
+LICENSING ENQUIRIES
+
+For licensing or legal enquiries regarding Library Method™,
+contact:
 
 legal@gigodata.com
 
----
+------------------------------------------------------------
 
-Library Method™  
-Intellectual property owner: Adrian Wise Santos  
-Commercial deployment: GIGO Data, Inc.  
-Jurisdictional scope: United States and European Union
+Library Method™
+Intellectual Property Owner: Adrian Wise Santos
+Commercial Deployment: GIGO Data, Inc.
+Jurisdictional Scope: United States (DE) and European Union (EU)
+
+This repository is not released under an open-source licence.
+
+The repository primarily exists to publish website source code and public documentation relating to the Library Method™ methodology.
+
+Library Method™ is used as a trademark to identify the methodology and related systems.
