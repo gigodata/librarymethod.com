@@ -44,8 +44,8 @@
     and are increasingly read by AI answer engines (Perplexity,
     SearchGPT, Gemini) for attribution. Critical for brand disambiguation.
   -->
-  <meta name="author"    content="Adrian Wise Santos" />
-  <meta name="creator"     content="Adrian Wise Santos" />
+  <meta name="author" content="Adrian Wise Santos" />
+  <meta name="creator" content="Library Method™ created by Adrian Wise Santos" />
   <meta name="copyright" content="© 2026 Adrian Wise Santos. All rights reserved." />
 
   <!-- ── CANONICAL ───────────────────────────────────────────── -->
@@ -112,18 +112,10 @@
   <!--
     ANN'S NOTE: The @graph pattern is the correct way to assert
     multiple entity types. Key upgrades here:
-    1. WebSite gets a SearchAction (enables Sitelinks Searchbox in
-       Google if volume justifies it, and signals AI crawlers).
-    2. Organization gets sameAs expanded — entity disambiguation
-       for Google's Knowledge Panel and AI answer engines.
-    3. Person @id now points to a dedicated person URL, not the
-       homepage — cleaner entity separation.
-    4. CreativeWork node added for the methodology itself — this
-       lets Google / AI engines treat Library Method as a named
-       intellectual work, not just a website topic.
-    5. Regulation references for GDPR + EU AI Act — these are
-       schema.org/Legislation nodes that connect your methodology
-       to the regulatory context you want to rank for.
+    - WebPage node for homepage (cleaner indexing + attribution).
+    - Corrected GIGO Data, Inc. incorporation date: 2025-06-24.
+    - Removed SearchAction (no onsite search endpoint).
+    - Added datePublished/dateModified for “first public use” posture.
   -->
   <script type="application/ld+json">
   {
@@ -137,16 +129,23 @@
         "alternateName": ["Library Method", "librarymethod.com"],
         "description": "Library Method\u2122 is a structured, human-aware methodology for capturing, classifying, verifying, and retrieving work history as defensible evidence. Aligned with GDPR and the EU AI Act.",
         "publisher": { "@id": "https://www.gigodata.com/#organization" },
-        "author":    { "@id": "https://www.librarymethod.com/#adrian" },
-        "inLanguage": "en-US",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "https://www.librarymethod.com/?s={search_term_string}"
-          },
-          "query-input": "required name=search_term_string"
-        }
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.librarymethod.com/#webpage",
+        "url": "https://www.librarymethod.com/",
+        "name": "Library Method\u2122 | Verifiable Work History & Data Governance — by Adrian Wise Santos",
+        "description": "Library Method\u2122 is a structured, human-aware methodology for capturing, classifying, verifying, and retrieving work history as defensible evidence. Aligned with GDPR, the EU AI Act, and data provenance best practices.",
+        "isPartOf": { "@id": "https://www.librarymethod.com/#website" },
+        "about": { "@id": "https://www.librarymethod.com/#methodology" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.librarymethod.com/opengraph/librarymethod_og_1200x630_v1_2026_02_01.png"
+        },
+        "datePublished": "2026-02-01",
+        "dateModified": "2026-03-03",
+        "inLanguage": "en-US"
       },
       {
         "@type": "Organization",
@@ -162,7 +161,7 @@
           "https://github.com/gigodata"
         ],
         "description": "GIGO Data, Inc. is a data governance and AI systems company. It deploys Library Method\u2122 under exclusive licence from Adrian Wise Santos.",
-        "foundingDate": "2012",
+        "foundingDate": "2025-06-24",
         "founder": { "@id": "https://www.librarymethod.com/#adrian" },
         "knowsAbout": [
           "Data Governance",
@@ -187,7 +186,7 @@
         ],
         "jobTitle": "Founder",
         "worksFor": { "@id": "https://www.gigodata.com/#organization" },
-        "description": "Creator and author of the Library Method\u2122 intellectual property. Founder of GIGO Data, Inc. Expert in data governance, AI systems, and verifiable work history."
+        "description": "Creator and owner of the Library Method\u2122 intellectual property. Founder of GIGO Data, Inc. Expert in data governance, AI systems, and verifiable work history."
       },
       {
         "@type": "CreativeWork",
@@ -195,7 +194,7 @@
         "name": "Library Method\u2122",
         "alternateName": "Library Method",
         "url": "https://www.librarymethod.com/",
-        "author":    { "@id": "https://www.librarymethod.com/#adrian" },
+        "creator": { "@id": "https://www.librarymethod.com/#adrian" },
         "publisher": { "@id": "https://www.gigodata.com/#organization" },
         "description": "A structured, human-aware methodology for capturing, classifying, verifying, and retrieving work history as defensible evidence. Designed to support GDPR data subject rights, EU AI Act transparency obligations, and personal data governance.",
         "inLanguage": "en-US",
@@ -1184,7 +1183,7 @@ Author:       Adrian Wise Santos
 Licencee:     GIGO Data, Inc. (exclusive licence)
 Scope:        Methodology, documentation, naming, and associated systems
 Jurisdiction: United States and European Union legal frameworks
-Contact:      <a href="/cdn-cgi/l/email-protection#5c2f393f292e3528251c3b353b33383d283d723f3331"><span class="__cf_email__" data-cfemail="2457414751564d505d64434d434b404550450a474b49">[email&#160;protected]</span></a>
+Contact:      <a href="mailto:legal@gigodata.com">legal@gigodata.com</a>
         </div>
       </div>
     </section>
