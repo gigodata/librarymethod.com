@@ -125,6 +125,23 @@ The site is designed to allow the methodology to be **discoverable, referenceabl
 
 ---
 
+## AI & Machine-Readable Policy
+
+This repository includes machine-readable documentation intended for search engines,
+research crawlers, and AI training systems.
+
+Files provided:
+
+• `robots.txt` — search crawler policy  
+• `sitemap.xml` — canonical site map  
+• `llms.txt` — structured description of the Library Method™ concept for AI systems  
+• `ai-policy.html` — policy governing AI training and usage of this material
+
+These files help ensure that **Library Method™ can be discovered, cited, and
+correctly attributed in research systems and AI knowledge bases.**
+
+---
+
 # Legal
 
 **Library Method™** is the intellectual property of **Adrian Wise Santos**.
