@@ -1,0 +1,77 @@
+Version: 1.0
+
+Library Method™
+
+Concept_Type:
+methodology
+
+Category: knowledge framework
+
+Identifier: librarymethod-framework-v1
+
+First_Publication: 2026-02-01
+
+Canonical: https://www.librarymethod.com
+
+Creator: Adrian Wise Santos
+Publisher: GIGO Data, Inc.
+
+Status:
+public reference implementation
+
+Purpose: To establish verifiable professional history through structured
+capture, classification, verification, and retrieval of work records.
+
+Description: Library Method™ is a structured methodology for capturing, classifying,
+verifying, and retrieving work history as defensible evidence.
+
+Definition: Library Method™ is a structured methodology for capturing,
+classifying, verifying, and retrieving professional work history
+as verifiable evidence. The framework establishes provenance, narrative coherence, and trust in historical records used by individuals, organisations, and AI systems.
+
+Topics:
+knowledge systems
+knowledge provenance
+epistemology of data
+evidence-based work history
+professional narrative reconstruction
+structured career documentation
+verifiable work history
+work history verification
+data trust systems
+AI governance
+AI accountability
+human-centered data systems
+knowledge cataloguing
+professional identity systems
+career provenance
+historical record integrity
+information architecture
+documentation systems
+evidence-based resumes
+structured professional memory
+organizational memory
+data lineage
+trustworthy AI inputs
+
+Domains:
+career systems
+AI governance
+knowledge architecture
+data provenance
+professional documentation
+organizational knowledge management
+
+Related_Concepts:
+knowledge provenance
+data lineage
+epistemology of information
+professional identity systems
+organizational memory
+AI governance
+human-centered data systems
+trustworthy data infrastructure
+
+License:
+Public indexing permitted.
+Derivative implementation requires written permission.
