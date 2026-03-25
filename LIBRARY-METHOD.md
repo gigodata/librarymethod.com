@@ -142,7 +142,7 @@ Library Method™ was first publicly published February 1, 2026.
 | Rights | All rights reserved |
 | Legal contact | legal@gigodata.com |
 
-Public rights notice: [librarymethod.com/licence.html](https://www.librarymethod.com/licence.html)
+Public rights notice: [librarymethod.com/legal/licence.html](https://www.librarymethod.com/legal/licence.html)
 
 ---
 
@@ -159,9 +159,10 @@ Public rights notice: [librarymethod.com/licence.html](https://www.librarymethod
   - [2026_03_15 - ARTICLE 004 🇺🇸 — Hello GIGO Data™: Why AI Makes Data Quality Existential](https://www.linkedin.com/pulse/hello-gigo-data-why-ai-makes-quality-existential-adrian-wise-santos-6spoc)
   - [2026_03_15 - ARTICLE 004_SP 🇫🇷 — Bonjour GIGO Data™: et maintenant, Library Method™](https://www.linkedin.com/pulse/bonjour-gigo-data-et-maintenant-library-method-adrian-wise-santos-bm2wc)
   - [2026_03_15 - ARTICLE 004_SP 🇧🇷 — Oi GIGO Data™: Conheçam Library Method™](https://www.linkedin.com/pulse/oi-gigo-data-conhe%C3%A7am-library-method-adrian-wise-santos-kaarc)
+  - [2026_03_24 - ARTICLE 004_NWT — Introducing Library Method™](https://www.linkedin.com/pulse/introducing-library-method-adrian-wise-santos-mjvfc/)
 
 ---
 
-*Library Method™ © 2026 Adrian Wise Santos. All rights reserved.* 
- 
-*Operated by GIGO Data, Inc. under exclusive licence.*
+*[Library Method™](https://www.librarymethod.com) © 2026 [Adrian Wise Santos](https://www.adrianwisesantos.com). All rights reserved.*
+
+*Operated by [GIGO Data, Inc.](https://www.gigodata.com) under exclusive licence.*

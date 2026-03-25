@@ -1,4 +1,5 @@
-Version: 1.0
+Version: 1.0.1
+Updated: 2026-03-25
 
 Library Method™
 
@@ -75,3 +76,5 @@ trustworthy data infrastructure
 License:
 Public indexing permitted.
 Derivative implementation requires written permission.
+
+Legal: https://www.librarymethod.com/legal/

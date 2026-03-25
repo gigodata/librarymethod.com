@@ -1,0 +1,66 @@
+.
+├── .gitignore
+├── .nojekyll
+├── assets
+│   ├── brand
+│   ├── fonts
+│   ├── icons
+│   │   ├── gigo-icon-128.png
+│   │   ├── gigo-icon-16.png
+│   │   ├── gigo-icon-180.png
+│   │   ├── gigo-icon-192.png
+│   │   ├── gigo-icon-32.png
+│   │   ├── gigo-icon-512.png
+│   │   ├── gigo-icon-64.png
+│   │   └── gigo-icon-96.png
+│   ├── images
+│   │   └── librarymethod_hero_v1_2026_02_01.jpg
+│   └── media
+├── CNAME
+├── css
+├── favicon.ico
+├── index.html
+├── js
+│   ├── accessibility_js
+│   ├── analytics_js
+│   └── ui_behaviours_js
+├── language
+│   ├── en
+│   │   ├── assets_en
+│   │   ├── metadata_en
+│   │   └── opengraph_en
+│   ├── fr
+│   │   ├── assets_fr
+│   │   ├── metadata_fr
+│   │   └── opengraph_fr
+│   ├── hr
+│   │   ├── assets_hr
+│   │   ├── metadata_hr
+│   │   └── opengraph_hr
+│   └── pt
+│       ├── assets_pt
+│       ├── metadata_pt
+│       └── opengraph_pt
+├── legal
+│   ├── acceptable-use.html
+│   ├── ai-policy.html
+│   ├── collection-policy.html
+│   ├── data-processing.html
+│   ├── index.html
+│   ├── legal.css
+│   ├── licence.html
+│   ├── privacy.html
+│   └── terms.html
+├── LIBRARY-METHOD.md
+├── LICENSE
+├── llms.txt
+├── metadata
+│   └── librarymethod_hero_v1_2026_02_01_provenance.md
+├── opengraph
+│   └── librarymethod_og_1200x630_v1_2026_02_01.png
+├── README.md
+├── repo_structure.txt
+├── robots.txt
+└── sitemap.xml
+
+32 directories, 32 files

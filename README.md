@@ -1,3 +1,4 @@
+```markdown
 # Library Method™ — librarymethod.com
 
 Know your story. Trust your data. Act with clarity.
@@ -25,15 +26,15 @@ The site is deployed using **GitHub Pages** and proxied through **Cloudflare**.
 ```
 librarymethod.com/
 ├── index.html
-├── licence.html
-├── ai-policy.html
 ├── robots.txt
 ├── sitemap.xml
+├── llms.txt
 ├── favicon.ico
 ├── CNAME
 ├── .gitignore
 ├── .nojekyll
 ├── LICENSE
+├── LIBRARY-METHOD.md
 ├── README.md
 │
 ├── assets/
@@ -49,6 +50,19 @@ librarymethod.com/
 │   ├── accessibility_js/
 │   ├── analytics_js/
 │   └── ui_behaviours_js/
+│
+├── language/
+│
+├── legal/
+│   ├── index.html
+│   ├── acceptable-use.html
+│   ├── ai-policy.html
+│   ├── collection-policy.html
+│   ├── data-processing.html
+│   ├── legal.css
+│   ├── licence.html
+│   ├── privacy.html
+│   └── terms.html
 │
 ├── metadata/
 │
@@ -135,7 +149,7 @@ Files provided:
 • `robots.txt` — search crawler policy  
 • `sitemap.xml` — canonical site map  
 • `llms.txt` — structured description of the Library Method™ concept for AI systems  
-• `ai-policy.html` — policy governing AI training and usage of this material
+• `legal/ai-policy.html` — policy governing AI training and usage of this material
 
 These files help ensure that **Library Method™ can be discovered, cited, and
 correctly attributed in research systems and AI knowledge bases.**
@@ -159,7 +173,7 @@ LICENSE
 
 Public rights notice:
 
-[https://www.librarymethod.com/licence.html](https://www.librarymethod.com/licence.html)
+[https://www.librarymethod.com/legal/licence.html](https://www.librarymethod.com/legal/licence.html)
 
 ---
 
@@ -183,3 +197,4 @@ Web:
 
 X:
 [https://x.com/gigodata](https://x.com/gigodata)
+```
