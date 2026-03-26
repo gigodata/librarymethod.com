@@ -1,4 +1,3 @@
-```markdown
 # Library Method™ — librarymethod.com
 
 Know your story. Trust your data. Act with clarity.
@@ -197,4 +196,3 @@ Web:
 
 X:
 [https://x.com/gigodata](https://x.com/gigodata)
-```
