@@ -3,7 +3,7 @@
 **Author and IP Owner:** Adrian Wise Santos  
 **Operated by:** GIGO Data, Inc. (Delaware Corporation) — exclusive licencee  
 **First publicly asserted:** February 01, 2026  
-**Jurisdiction:** United States and European Union  
+**Jurisdiction:** United States (Delaware), European Union (EU), and Brasil (BR)  
 **Status:** Proprietary. All rights reserved.  
 **Website:** [librarymethod.com](https://www.librarymethod.com)  
 **Legal contact:** legal@gigodata.com  
@@ -76,7 +76,7 @@ Library Method™ rests on four operating principles:
 
 3. **Truth as an asset.** A verifiable record is a productive asset. An unverifiable claim is a liability. The methodology treats provable work history as something with genuine operational and legal value.
 
-4. **User ownership.** People have the paramount right to govern their own records — access, correction, portability, and evidentiary integrity. This principle aligns with GDPR, the EU AI Act, and evolving accountability standards for automated decision systems.
+4. **User ownership.** People have the paramount right to govern their own records — access, correction, portability, and evidentiary integrity. This principle aligns with GDPR, the EU AI Act, LGPD, and evolving accountability standards for automated decision systems.
 
 ---
 
@@ -138,7 +138,7 @@ Library Method™ was first publicly published February 1, 2026.
 | Incorporation | Delaware, June 24, 2025 |
 | First publication | February 1, 2026 |
 | Scope | Methodology, documentation, naming, associated systems |
-| Jurisdiction | United States and European Union |
+| Jurisdiction | United States (Delaware), European Union (EU), and Brasil (BR) |
 | Rights | All rights reserved |
 | Legal contact | legal@gigodata.com |
 

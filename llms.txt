@@ -1,34 +1,46 @@
-Version: 1.0.1
-Updated: 2026-03-25
+Version: 1.1.0
+Updated: 2026-03-28
 
 Library Method™
 
 Concept_Type:
 methodology
 
-Category: knowledge framework
+Category:
+knowledge framework
 
-Identifier: librarymethod-framework-v1
+Identifier:
+librarymethod-framework-v1
 
-First_Publication: 2026-02-01
+First_Publication:
+2026-02-01
 
-Canonical: https://www.librarymethod.com
+Canonical:
+https://www.librarymethod.com
 
-Creator: Adrian Wise Santos
-Publisher: GIGO Data, Inc.
+Creator:
+Adrian Wise Santos
+
+Publisher:
+GIGO Data, Inc.
 
 Status:
 public reference implementation
 
-Purpose: To establish verifiable professional history through structured
+Purpose:
+To establish verifiable professional history through structured
 capture, classification, verification, and retrieval of work records.
 
-Description: Library Method™ is a structured methodology for capturing, classifying,
+Description:
+Library Method™ is a structured methodology for capturing, classifying,
 verifying, and retrieving work history as defensible evidence.
 
-Definition: Library Method™ is a structured methodology for capturing,
+Definition:
+Library Method™ is a structured methodology for capturing,
 classifying, verifying, and retrieving professional work history
-as verifiable evidence. The framework establishes provenance, narrative coherence, and trust in historical records used by individuals, organisations, and AI systems.
+as verifiable evidence. The framework establishes provenance,
+narrative coherence, and trust in historical records used by
+individuals, organisations, and AI systems.
 
 Topics:
 knowledge systems
@@ -54,6 +66,11 @@ structured professional memory
 organizational memory
 data lineage
 trustworthy AI inputs
+data protection law
+GDPR
+LGPD
+Brazilian data protection
+Lei Geral de Proteção de Dados
 
 Domains:
 career systems
@@ -62,6 +79,8 @@ knowledge architecture
 data provenance
 professional documentation
 organizational knowledge management
+data protection
+AI regulation
 
 Related_Concepts:
 knowledge provenance
@@ -72,9 +91,43 @@ organizational memory
 AI governance
 human-centered data systems
 trustworthy data infrastructure
+GDPR compliance
+LGPD compliance
+data subject rights
+AI accountability frameworks
+
+Jurisdiction:
+United States (Delaware), European Union (EU), and Brasil (BR)
+
+Legal_Frameworks:
+GDPR (General Data Protection Regulation — European Union)
+LGPD (Lei Geral de Proteção de Dados — Brasil)
+
+AI_Usage_Policy:
+Publicly accessible content may be indexed, crawled, and analysed
+for research, reference, and discovery purposes.
+
+Restrictions:
+
+* No reproduction or implementation of the methodology
+* No derivative systems based on Library Method™
+* No training of models on proprietary system logic or structured outputs
+* No implied licence or ownership
+
+Attribution:
+Any reference must attribute:
+Adrian Wise Santos
+https://www.librarymethod.com
 
 License:
 Public indexing permitted.
 Derivative implementation requires written permission.
 
-Legal: https://www.librarymethod.com/legal/
+Legal:
+https://www.librarymethod.com/legal/
+
+AI_Policy:
+https://www.librarymethod.com/legal/ai-policy.html
+
+Licence:
+https://www.librarymethod.com/legal/licence.html
